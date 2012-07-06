@@ -15,7 +15,7 @@ When creating a new View definition, use the default provided in the view-defini
 	var myModel = new CleverModelName()
 	  , myView = new CleverView({model:myModel});
 	  
-	Backbone.ViewManager(myView);
+	Backbone.ViewManager.Add(myView);
 	
 ## Advanced Usage
 The BVM currently provides 2 methods - Add() and Remove() - 2 prototype methods for all views - close() and name() - and a Visible[] array for knowing what is on the screen. 
