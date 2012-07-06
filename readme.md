@@ -4,7 +4,7 @@
 - joshuazeltman.com
 
 ## Summary
-Backbone's view setup is extremely powerful, but can get even experienced coders into trouble and heartache. The Backbone ViewManager is designed to help keep your code clean, while keeping you sane at the same time. The BVM does this by taking the heavy lifting of placing and removing views from the DOM for you and lets you focus on the more important things of your application.
+Backbone's view setup is extremely powerful, but can get even experienced coders into trouble quickly. The Backbone ViewManager is designed to help keep your code clean, while keeping you sane at the same time. The BVM does this by taking the heavy lifting of placing and removing views from the DOM for you and lets you focus on the more important things of your application.
 
 ## Dependencies
 Backbone, Underscore, jQuery
@@ -44,3 +44,6 @@ The BVM currently provides 2 methods - Add() and Remove() - 2 prototype methods 
 	  }
 	  
 	BVM.Add(myView, params);
+	
+## Additional Notes
+	This version also ship with Mustache style templating enabled. This means that in your templates, your should now use {{ variables }} instead of the underscore defaults <%= %> ERB style.
